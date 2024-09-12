@@ -12,6 +12,7 @@ const MyWorkCarousal = () => {
         <div className="d-flex align-items-center justify-content-center mt-3">
           <div className="carousal-container">
             <Carousel
+              interval={null}
               prevIcon={<CarousalButton dir="prev" />}
               nextIcon={<CarousalButton dir="next" />}
             >
