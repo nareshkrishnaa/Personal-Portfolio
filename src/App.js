@@ -59,6 +59,7 @@ function App() {
         <section ref={(el) => (sectionsRef.current[2] = el)}>
           <Experience />
         </section>
+        <section ref={(el) => (sectionsRef.current[4] = el)}></section>
       </div>
     </div>
   );
