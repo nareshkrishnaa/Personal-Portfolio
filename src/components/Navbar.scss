@@ -1,0 +1,84 @@
+.icon {
+    width: fit-content;
+    height: fit-content;
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+    border: solid 2px black;
+    transition: transform 0.3s ease !important;
+    /* Use !important as a last resort */
+}
+
+
+
+.icon:hover {
+    transform: rotate(-45deg) !important;
+}
+
+.icon:onclick {
+    transform: rotate(-45deg) !important;
+}
+
+.icon-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    transition: transform 0.3s ease !important;
+}
+
+.icon:hover .icon-inner {
+    transform: rotate(45deg) !important;
+}
+
+#list-icon {
+    padding-left: 9px;
+    padding-right: 9px;
+    padding-top: 1px !important;
+    padding-bottom: 1px !important;
+    border: solid 2px black;
+    transition: transform 0.3s ease !important;
+}
+
+#list-icon:hover {
+    border: solid 3px black;
+
+}
+
+.box {
+    padding: 5px 5px;
+    border: 3px;
+    transition: border 0.2s;
+}
+
+.box:hover {
+    cursor: pointer;
+    border: solid 5px black;
+}
+
+.text-underline {
+    text-decoration: underline;
+}
+
+@media (min-width: 576px) {
+    .responsive-text {
+        font-size: 1.2rem;
+        /* Small devices (landscape phones, 576px and up) */
+    }
+}
+
+@media (min-width: 768px) {
+    .responsive-text {
+        font-size: 1.5rem;
+        /* Medium devices (tablets, 768px and up) */
+    }
+}
+
+@media (min-width: 992px) {
+    .responsive-text {
+        font-size: 2rem;
+        /* Large devices (desktops, 992px and up) */
+    }
+}
