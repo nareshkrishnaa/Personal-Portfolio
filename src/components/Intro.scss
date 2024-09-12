@@ -5,19 +5,14 @@
 
 /* Add styles for subsequent content */
 .content-section {
-    padding: 50px;
+    // padding: 50px;
     background-color: #fff;
     /* Optional background */
     min-height: 100vh;
     /* Ensures this section fills the next viewport */
 }
 
-/* Optional: Style the text */
-// .greeting-section p {
-//     font-size: 24px;
-//     font-weight: bold;
-//     text-align: center;
-// }
+
 
 .intro-image {
     width: 60%;
@@ -26,6 +21,72 @@
 .text-blue {
     color: blue;
 }
+
+// ---------------------------------------
+
+.carousal-container {
+    width: 90%;
+}
+
+.circle-icon {
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+}
+
+.circle-icon i {
+    color: black;
+    font-size: 24px;
+}
+
+.cr-bg-hd {
+    border-radius: 10px;
+    background-color: white;
+    color: #333;
+    display: inline-block;
+    padding: 7px 10px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+
+    position: relative;
+    top: 120px;
+    z-index: 10;
+}
+
+.car-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.car-img:hover {
+    cursor: pointer;
+}
+
+.carousel-inner {
+    overflow: visible !important;
+}
+
+
+
+
+
+
+
+
+
+// --------------------------------------------
+
+.tc {
+    font-size: 24px;
+}
+
+
+
 
 @media (max-width: 991.98px) {
     .intro-image {
