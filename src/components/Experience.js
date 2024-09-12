@@ -18,7 +18,7 @@ import CarousalButton from "./CarousalButton";
 const Experience = () => {
   return (
     <>
-      <div className="container">
+      <div className="container mt-5 pt-5">
         <div className="content-section pt-2">
           <h1 className="text-center pt-2">My Experience</h1>
           <p className="text-center tc mt-3 ">
