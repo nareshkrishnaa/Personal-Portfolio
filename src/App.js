@@ -24,7 +24,7 @@ function App() {
           }
         });
       },
-      { threshold: 0.2 } // Trigger when 50% of the section is visible
+      { threshold: 0.4 } // Trigger when 50% of the section is visible
     );
 
     sectionsRef.current.forEach((section) => {
